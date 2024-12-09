@@ -1,3 +1,6 @@
+https://Ashuksu.github.io/test-project/public
+https://Ashuksu.github.io/test-project/public/second
+
 ## Использование
 
 * `npm i` --- усстановка нод_модулей
