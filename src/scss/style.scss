@@ -1,0 +1,19 @@
+@import "~normalize.css";
+//@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~slick-carousel/slick/slick.css";
+
+@import "parts/fonts";
+@import "parts/variables";
+@import "parts/extends";
+@import "parts/mixins";
+
+@import "parts/global";
+@import "parts/common";
+
+@import "parts/header";
+@import "parts/menu";
+@import "parts/footer";
+
+@import "parts/banner";
+@import "parts/slider";

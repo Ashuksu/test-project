@@ -1,0 +1,49 @@
+body.header-show {
+  .header {
+    top: 0;
+  }
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: -100px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  transition: .5s ease-in-out;
+
+  &__inner {
+    @extend %flex-s;
+    gap: 20px;
+    min-height: 44px;
+    padding: 8px 0;
+
+    @include response-min(768px) {
+      gap: 40px;
+      min-height: 80px;
+      padding: 15px 0;
+    }
+  }
+}
+
+.logo {
+  @extend %flex-c;
+  width: 88px;
+  height: 24px;
+  color: $dark;
+  white-space: nowrap;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @include response-min(768px) {
+    width: 143px;
+    height: 40px;
+  }
+}
